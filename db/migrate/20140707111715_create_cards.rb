@@ -5,6 +5,9 @@ class CreateCards < ActiveRecord::Migration
       t.string :last_name
       t.string :email_address
       t.string :phone_number
+      t.string :headline
+      t.string :current_position
+      t.string :photo_url
     end
   end
 end

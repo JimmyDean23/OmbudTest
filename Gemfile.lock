@@ -48,6 +48,8 @@ GEM
       thor (>= 0.14, < 2.0)
     json (1.8.1)
     kgio (2.9.2)
+    knockoutjs-rails (3.2.0)
+      railties (>= 3.1, < 5)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -127,6 +129,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails
+  knockoutjs-rails
   pg
   rails (= 4.1.4)
   rails_12factor

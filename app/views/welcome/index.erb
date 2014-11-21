@@ -1,8 +1,17 @@
 <h1>Your Virtual Business Card</h1>
+<p><span data-bind="firstName"></span></p>
+<p><span data-bind="lastName"></span></p>
+<p><span data-bind="emailAddress"></span></p>
+<p><span data-bind="phoneNumber"></span></p>
+<p><span data-bind="headline"></span></p>
+<p><span data-bind="currentPosition"></span></p>
 
+<h2>Edit</h2>
 <p>First Name: <input data-bind="value: firstName" /></p>
 <p>Last Name: <input data-bind="value: lastName" /></p>
 <p>Email: <input data-bind="value: emailAddress" /></p>
 <p>Phone: <input data-bind="value: phoneNumber" /></p>
+<p>Headline: <input data-bind="value: headline" /></p>
+<p>Current Position: <input data-bind="value: currentPosition" /></p>
 
-<script src="scripts/cardViewModel.js"></script>
+<script src="assets/cardViewModel.js"></script>
